@@ -34,9 +34,16 @@
 
 <div align="center">
 
+<div align="left">
+
 ![screenshot](https://github.com/geraldelorm/interior-consultant/blob/main/assets/img/screen1.PNG)
+
+</div>
+<div align="right">
+
 ![screenshot](https://github.com/geraldelorm/interior-consultant/blob/main/assets/img/screen2.PNG)
 
+</div>
 </div>
 
 ## Features
