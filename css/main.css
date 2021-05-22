@@ -52,8 +52,19 @@ body {
   right: 0;
   left: 0;
   bottom: 0;
+  z-index: 1;
+
+  animation: width-animation 0.5s ease-in;
 }
 
+@keyframes width-animation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
 .mobile-nav .nav-item {
   font-size: 1.125rem;
   margin: 1rem;
@@ -68,19 +79,24 @@ body {
   display: none;
 }
 .close {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
+  position: relative;
+  bottom: 28%;
+  left: 43%;
   cursor: pointer;
 }
 .open {
   cursor: pointer;
 }
 .theme-selector {
+  cursor: pointer;
   margin: 0 auto;
+  transition: all 1s ease;
+}
+.theme-selector:hover {
+  transform: scale(1.5) rotate(360deg);
 }
 .theme-selector > svg {
-  width: 1, 5rem;
+  width: 1.5rem;
   height: 1.5rem;
 }
 .main {
@@ -110,10 +126,18 @@ body {
   font-weight: 700;
   display: flex;
   margin: 2rem 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.read-more:hover {
+  transform: translateY(50%);
 }
 .arrow {
   margin-left: 1rem;
   transform: scale(1.5);
+}
+.arrow:hover {
+  transform: translateX(50%) scale(1.8);
 }
 
 .img-area {
@@ -140,6 +164,10 @@ body {
   align-items: center;
   justify-content: flex-start;
 }
+.theme-selector > svg {
+  width: 2rem;
+  height: 2rem;
+}
 .card-head > img {
   width: 50px;
   height: 50px;
@@ -151,8 +179,6 @@ body {
 }
 .name {
   font-weight: bold;
-}
-.role {
 }
 .card-text {
   font-family: 'Lora', serif;
@@ -191,6 +217,7 @@ font-family: 'Montserrat', sans-serif; */
     justify-content: space-between;
   }
   .text-area {
+    margin-right: 1rem;
     width: 40%;
   }
   .img-area {
