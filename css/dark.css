@@ -1,0 +1,26 @@
+:root {
+  --bg: #181719;
+  --color: #ffffff;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--color);
+}
+
+.arrow > svg {
+  fill: var(--color);
+}
+.close > svg {
+  fill: var(--color);
+}
+.open > svg {
+  fill: var(--color);
+}
+.theme-selector > svg {
+  fill: var(--color);
+}
+
+.card {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
