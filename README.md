@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://geraldelorm.github.io/interior-consultant/">
+    <a href="https://gerald-interior-consultant.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -32,9 +32,11 @@
 
 ## Overview
 
-|                                            Light Theme                                             |                                             Dark Theme                                             |
-| :------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
-| ![screenshot](https://github.com/geraldelorm/interior-consultant/blob/main/assets/img/screen1.PNG) | ![screenshot](https://github.com/geraldelorm/interior-consultant/blob/main/assets/img/screen2.PNG) |
+ Light Theme               |  Dark Theme
+:-------------------------:|:-------------------------:
+![screenshot](https://github.com/geraldelorm/interior-consultant/blob/main/assets/img/screen1.PNG)  |  ![screenshot](https://github.com/geraldelorm/interior-consultant/blob/main/assets/img/screen2.PNG)
+
+
 
 ## Features
 
