@@ -54,7 +54,7 @@ body {
   bottom: 0;
   z-index: 1;
 
-  animation: width-animation 0.5s ease-in;
+  animation: width-animation 0.5s ease-in-out;
 }
 
 @keyframes width-animation {
@@ -100,6 +100,7 @@ body {
   height: 1.5rem;
 }
 .main {
+  margin: 2rem 0;
   grid-column: 2 / 20;
   grid-row: 2/ 3;
   display: flex;
@@ -156,8 +157,8 @@ body {
   padding: 1rem 2rem;
   margin-bottom: 1rem;
   position: absolute;
-  bottom: -15%;
-  right: 5%;
+  bottom: -25%;
+  right: 3%;
 }
 .card-head {
   display: flex;
@@ -226,6 +227,8 @@ font-family: 'Montserrat', sans-serif; */
   .card {
     width: 350px;
     height: 190px;
+    bottom: -20%;
+    right: 5%;
   }
   .footer {
     font-size: 1rem;
