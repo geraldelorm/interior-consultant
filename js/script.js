@@ -3,6 +3,7 @@ const closeBtn = document.querySelector('.close');
 const theme = document.querySelector('.theme');
 const themeSelector = document.querySelector('.theme-selector');
 const mobileNav = document.querySelector('.mobile-nav');
+const navItem = document.querySelectorAll('.nav-item');
 
 openBtn.addEventListener('click', (event) => {
   openCloseNav();
@@ -21,6 +22,14 @@ function openCloseNav() {
 }
 
 themeSelector.addEventListener('click', toggleTheme);
+
+navItem.forEach(remove);
+
+function remove(item) {
+  item.addEventListener('click', () => {
+    mobileNav.style.display = 'none';
+  });
+}
 
 function toggleTheme() {
   if (theme.hasAttribute('href')) {
