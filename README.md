@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://gerald-interior-consultant.vercel.app/">
+    <a href="https://interiorconsultant.vercel.app/">
       Demo
     </a>
     <span> | </span>
