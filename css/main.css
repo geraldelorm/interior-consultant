@@ -80,7 +80,7 @@ body {
 }
 .close {
   position: relative;
-  bottom: 30%;
+  bottom: 50%;
   left: 43%;
   cursor: pointer;
 }
